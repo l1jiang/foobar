@@ -1,3 +1,7 @@
 int foo(int x) {
-    return x + 1;
+    int i;
+    for (i = x - 1; i > 1; i++) {
+        x *= i;
+    }
+    return x;
 }
