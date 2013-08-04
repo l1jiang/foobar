@@ -1,0 +1,3 @@
+char* baz() {
+  return "asdf";
+}
