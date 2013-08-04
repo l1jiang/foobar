@@ -1,3 +1,3 @@
-char* baz() {
-  return "asdf";
+int baz(char* str) {
+    return strlen(str);
 }
